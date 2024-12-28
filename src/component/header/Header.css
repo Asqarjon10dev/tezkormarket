@@ -1,0 +1,262 @@
+header{
+    width: 100%;
+    padding: 0 17%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-col);
+}
+
+.header_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header img {
+    width: 63px;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+}
+
+header h3{
+    font-family: "Cinzel", serif;
+    font-size: 26px;
+    color: var(--wh-col);
+
+    span{
+    font-family: "Cinzel", serif;
+
+        color: var(--btn-col)
+    }
+}
+
+
+.search_bar {
+    /* width: 335px; */
+    /* height: 35px; */
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #000;
+    padding:  2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid var(--btn-col);
+}
+
+.search_bar input {
+    padding: 6px 5%;
+    /* width: 385px; */
+    /* height: 28px; */
+    text-indent: 10px;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    font-size: 13px;
+    background-color: var(--wh-col);   
+
+    border-bottom-left-radius: 5px;
+}
+
+.search_btn{
+    font-size: 19px;
+    color: var(--bg-col);
+}
+
+.search_bar button{
+    width: 44px;
+    height: 27px;
+    display: flex;
+    padding-right: 2px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    border-radius: 0 5px 5px 0px;
+    background-color: var(--wh-col);   
+}
+
+.Header_cart{
+    font-size: 19px;
+    color: var(--wh-col)
+}
+
+.header_login button{
+    width: 90px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: var(--wh-col);  
+}
+@media screen and (max-width: 1185px) {
+    .search_bar input {
+        padding: 6px 4%;
+    }
+    .header_login button{
+        width: 90px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    .search_bar input {
+        width: 170px;
+        /* padding: 6px 0px; */
+    }
+
+    .header_login button{
+        width: 80px;
+        font-size: 17px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .search_bar input {
+        width: 160px;
+        /* padding: 6px 0px; */
+    }
+
+    .header_login button{
+        width: 70px;
+        font-size: 17px;
+        height: 28px;
+    }
+    }
+
+@media screen and (max-width: 935px) {
+    .search_bar input {
+        width: 150px;
+        /* padding: 6px 0px; */
+    }
+
+    .header_login button{
+        width: 60px;
+        font-size: 16px;
+        height: 28px;
+    }
+    
+}
+
+@media screen and (max-width: 885px) {
+    .search_bar input {
+        width: 140px;
+        /* padding: 6px 0px; */
+    }
+
+    .header_login button{
+        width: 55px;
+        font-size: 15px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .search_bar input {
+        width: 130px;
+        /* padding: 6px 0px; */
+    }
+
+    .header_login button{
+        width: 50px;
+        font-size: 15px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .search_bar input {
+        width: 110px;
+        /* padding: 6px 0px; */
+    }
+
+    .header_login button{
+        width: 50px;
+        font-size: 15px;
+        height: 28px;
+    }
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+        /* background-color: #fff; */
+    }
+
+    .search_bar,
+    .header_login {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .logo  {
+        font-size: 20px;
+    }   
+}
+
+@media screen and (max-width: 485px) {
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+        /* background-color: #fff; */
+    }
+
+    .logo h3 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        /* font-size: 28px; */
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .header_box {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        /* font-size: 80px; */
+    }
+
+    .logo img {
+        width: 60px;
+        height: 27px;
+    }
+
+    .logo h3 {
+        font-size: 28px;
+    }
+
+    .search_bar,
+    .Header_cart,
+    .header_login {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .catagory_btn {
+        display: none;
+    }
+}
