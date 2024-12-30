@@ -46,7 +46,7 @@ function SinglePage() {
   };
 
   if (!product) {
-    return <p>Mahsulot topilmadi.</p>; // Agar mahsulot topilmasa
+    return <p>Mahsulot topilmadi.</p>; 
   }
 
   return (
@@ -96,7 +96,7 @@ function SinglePage() {
           <div className="form-group">
             <label>Telefon raqamingiz</label>
             <input
-              type="number"
+              type="tel"
               placeholder="+998 (__) ___-__-__"
               name="phone"
               value={formData.phone}
