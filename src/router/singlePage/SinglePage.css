@@ -6,7 +6,7 @@
     display: grid;
     place-items: center;
     /* transform: translate(-50%, -50%); */
-    background-color: red;
+    /* background-color: red; */
     z-index: 9999; /* Toast boshqa elementlardan yuqori bo'lishi uchun */
     /* max-width: 90%; Kichik ekranlar uchun moslashuv */
     text-align: center;
@@ -25,18 +25,18 @@
 
 
 .products-container {
+    width: 100%;
     padding: 0 15%;
 }
 
 .product_box {
-/* background-color: red; */
-    /* background: white; */
-    /* margin: 20px 0; */
-    padding: 20px;
+/* margin: 20px 0; */
+padding: 20px;
     border-radius: 8px;
 }
 
 .product-header {
+    /* background: yellow; */
     display: flex;
     padding-bottom: 20px;
     flex-direction: column;
@@ -59,6 +59,7 @@
 .product-rating {
     display: flex;
     align-items: center;
+
     gap: 10px;
 }
 
@@ -75,7 +76,7 @@
 .product-content {
     /* padding: 20px; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 20px;
 }
 

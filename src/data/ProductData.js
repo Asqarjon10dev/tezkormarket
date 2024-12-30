@@ -1,4 +1,9 @@
 import { ImGift } from "react-icons/im";
+import mahsi from "../assets/mahsi1.png";
+import mahsi_two from "../assets/mahsi2.png";
+// import t_flag from "../assets/turkish flag.png"
+
+
 
 export const ProductData = [
     {
@@ -20,5 +25,29 @@ export const ProductData = [
             ],
             payment: "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
             order: "🚚 O‘zbekiston bo‘ylab yetkazib berish xizmati mavjud"
+    },
+    {
+        id: 2,
+        name: "Termal Mest",
+        price: 72,
+        copy: "✅Bilasizmi 70% kasalliklar oyoqlardan kelib chiqadi",
+        img:[
+            mahsi_two,
+            mahsi,
+            "https://alijahon.uz/media/product/IMG_0517.jpeg",
+        ],
+        info: [
+            "🔥Formactive  maxsilari hozirda koʻpchiliking qiziqishiga sabab boʻlmoqda. Ushbu maxsi inson tanasidagi issiqlikni moʻtadil holda saqlaydi. Erkak va Ayollar uchun birdek mostushadi",
+            "✅Hattoki batinkangiz teshik boʻlsa ham oyogʻingizga suv oʻtkazmaydi",  
+            "Turkiyada ishlab chiqarilgan.",
+            "💯 Sifat kafolatiga ega",
+            "Yangi yil AKSIYASI🎄: 1+1=3 🎁🎁🎁"
+        ],
+        payment: "Toʻlovni mahsulotni qoʻlingizga olganingizdan soʻng qilasiz.",
+                 
+
+        order: "🚚 Oʻzbekiston boʻylab yetkazib berish xizmati mavjud"
+
+
     }
 ]

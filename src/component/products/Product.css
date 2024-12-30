@@ -2,23 +2,18 @@
     width: 100%;
     padding: 10px 17%;
     display: flex;
-    /* justify-content: center; */
-    /* height: 100vh; */
-    /* align-items: center; */
-    /* background-color: red; */
-
-}
-
-.Product_container{
-    width: 100%;
-    flex-wrap: wrap;
-    display: flex;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     /* justify-content: space-between; */
 }
 
+/* .Product_container{
+} */
+
 .product_cart{
     width: 210px;
+    background-color: red;
     border-radius: 7px;
     display: flex;
     flex-direction: column;
