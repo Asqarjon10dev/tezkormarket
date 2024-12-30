@@ -32,6 +32,9 @@
 .product_box {
 /* margin: 20px 0; */
 padding: 20px;
+display: flex;
+gap: 20px;
+flex-direction: column;
     border-radius: 8px;
 }
 
@@ -265,8 +268,12 @@ padding: 20px;
     }
 
     
-
+    .product-content{
+        display: flex;
+        flex-direction: column;    
+    }
     .product_top{
+        /* background-color: red; */
         display: flex;
         flex-direction: column;    
     }
